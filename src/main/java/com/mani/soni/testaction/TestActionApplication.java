@@ -14,10 +14,4 @@ public class TestActionApplication {
 		SpringApplication.run(TestActionApplication.class, args);
 	}
 
-	@PostConstruct
-	public void init() {
-		Logger logger = LoggerFactory.getLogger(TestActionApplication.class);
-		logger.info("Java App Started!!!");
-	}
-
 }
